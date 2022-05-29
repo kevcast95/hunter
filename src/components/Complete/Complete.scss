@@ -1,0 +1,74 @@
+.complete {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  & .progress {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    & > div {
+      width: 100%;
+    }
+    &-bar_external {
+      width: 100%;
+      height: 20px;
+      background-color: #181d29;
+      border-radius: 10px;
+      border: solid 1px #fff;
+    }
+    &-bar {
+      width: 10%;
+      height: 100%;
+      background-color: #815e57;
+      border: solid 1px #815e57;
+      border-radius: 10px;
+    }
+    & > img {
+      width: 55px;
+    }
+  }
+  &-letters-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-letters {
+    width: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #815e57;
+    background-color: #181d29;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-radius: 8px;
+    z-index: 10;
+  }
+  &-abc_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &-abc {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #815e57;
+    background-color: #181d29;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-radius: 50%;
+    margin: 5px;
+    z-index: 10;
+  }
+}

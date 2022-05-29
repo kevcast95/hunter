@@ -1,0 +1,35 @@
+.cake {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  &-content {
+    width: 80%;
+    height: 82vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-smoke {
+    position: absolute;
+    left: 20px;
+    transform: rotate(316deg);
+  }
+  &-smoke1 {
+    position: absolute;
+    animation: App-logo-spin infinite 60s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200&family=Quicksand:wght@300;400;500&family=Ubuntu+Mono:ital@1&display=swap');
+.layout {
+  width: 100%;
+  max-width: 430px;
+  height: 100vh;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(0deg, #29314442 37%, #181d29 76%);
+  overflow: hidden;
+  margin: 0 auto;
+  /* color: #815e57; */
+  &-image {
+    width: 100%;
+    height: 42vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../assets/frist.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &-stops{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    & .stops-text {
+      color: #fff;
+      padding: 0 10px;
+    }
+    & .stops-num{
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      border-radius: 50%;
+      border: solid 2px #815e57;
+      background-color: #181d29 ;
+      color: #fff;
+    }
+  }
+  &-content_game {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #293144 59%, #181d2980 85%);
+    & > img {
+      position: absolute;
+      width: 120px;
+      height: 220px;
+      
+    }
+  }
+}

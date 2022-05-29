@@ -1,0 +1,54 @@
+.memory {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  &-img_container {
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid #815e57;
+    margin: 10px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  &-img, &-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    background-color: #293144;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  & .content {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes flip-horizontal-bottom {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-reverse{
+  0% {
+    transform: rotateX(-180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}

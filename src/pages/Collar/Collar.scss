@@ -1,0 +1,34 @@
+.collar {
+  width: 100%;
+  height: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #FFF;
+  &-content {
+    width: 95%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+  &-smoke {
+    position: absolute;
+    transform: rotate(37deg);
+    animation: smoke- infinite 60s linear;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes smoke- {
+  from {
+    top: -190px;
+  }
+  to {
+    top: 500px;
+  }
+}

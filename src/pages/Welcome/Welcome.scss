@@ -1,0 +1,54 @@
+.welcome {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #FFF;
+  &-content {
+    width: 80%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+  &-smoke {
+    position: absolute;
+    transform: rotate(38deg);
+  }
+  &-smoke1 {
+    position: absolute;
+    animation: App-logo-spin infinite 60s linear;
+  }
+  &-title1 {
+    color: #815e57;
+    font-size: 55px;
+  }
+  &-start {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(0deg, #293144 8%, #815e57 75%);
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    box-shadow: -1px 1px 16px 20px rgba(207, 207, 207, 0.1);
+    z-index: 10;
+    padding: 10px;
+  }
+  &-start:active {
+    box-shadow: -1px 1px 16px 20px #293144;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
