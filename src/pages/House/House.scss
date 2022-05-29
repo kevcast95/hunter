@@ -1,0 +1,46 @@
+.house {
+  width: 100%;
+  height: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  &-content {
+    width: 86%;
+    height: 82vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-smoke {
+    position: absolute;
+    transform: rotate(37deg);
+    animation: smoke- infinite 60s linear;
+    animation-timing-function: ease-out;
+  }
+  &-challenge {
+    width: 100%;
+  }
+  &-rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@keyframes smoke- {
+  from {
+    top: 650px;
+  }
+  to {
+    top: -220px;
+  }
+}

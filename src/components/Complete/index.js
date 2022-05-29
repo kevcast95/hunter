@@ -17,7 +17,7 @@ function Complete( { setIsOpen, setFailed }) {
   const containsAll = wordReduced.every(element => {
     return letterCheck.includes(element);
   });
-  console.log('letterCheck',letterCheck);
+  
   useEffect(() => {
     const progressBar = 100 - (usedLetter.length / (lengthWord + 2)) * 100
     if (progressBar < 65) {

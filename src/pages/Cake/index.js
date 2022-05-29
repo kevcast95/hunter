@@ -12,8 +12,6 @@ import './Cake.scss'
 function Cake() {
   const [isOpen, setIsOpen] = useState(false)
   const [failed, setFailed] = useState(false)
- 
-
   return (
     <Layout picture={img}
       stop={3}
