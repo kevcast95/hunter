@@ -16,6 +16,7 @@ function Hotel() {
     <Layout picture={img}
       stop={5}
       route={'/forth'}
+      location={'https://www.google.com.co/maps/place/Cra.+19+%2382a-46,+Soledad,+Barranquilla,+Atl%C3%A1ntico/@10.9203777,-74.8198168,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef5d2fa46a2e2b1:0xf4bdbc9efd8df722!8m2!3d10.9203777!4d-74.8176281?hl=es&authuser=0'}
       isOpen={false}
     >
       <div className="hotel">

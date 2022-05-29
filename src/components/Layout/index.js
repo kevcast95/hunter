@@ -8,6 +8,7 @@ function Layout({
   picture,
   stop,
   route,
+  location,
   text, 
   isOpen }) {
   return (
@@ -27,6 +28,7 @@ function Layout({
           num={stop} 
           route={route}
           text={text}
+          location={location}
         />
       }
     </main>
