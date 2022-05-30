@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/hunter">
         <Routes>
           <Route exact path="/" element={<Welcome />} />
           <Route exact path="/first" element={<Collar />} />
