@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/hunter/static/css/main.8e2c4620.css",
+    "main.js": "/hunter/static/js/main.a99dd0ed.js",
+    "static/js/787.51918977.chunk.js": "/hunter/static/js/787.51918977.chunk.js",
+    "static/media/smk3.png": "/hunter/static/media/smk3.337b9ab355ff51f7bad6.png",
+    "static/media/smk1.png": "/hunter/static/media/smk1.76429cbfe12b17a1ea67.png",
+    "static/media/frist.jpg": "/hunter/static/media/frist.eb5caee95f02425b15c8.jpg",
+    "static/media/paper-back.png": "/hunter/static/media/paper-back.b416ae2779c936db0b0e.png",
+    "static/media/hogwart.png": "/hunter/static/media/hogwart.a16d2e02a674c6d689da.png",
+    "static/media/reliquias.png": "/hunter/static/media/reliquias.630dc3612b3de1433af7.png",
+    "static/media/third.jpg": "/hunter/static/media/third.c77eb1acc71c27fa70c7.jpg",
+    "static/media/forth.jpg": "/hunter/static/media/forth.3275aa02e54f9f4a4b82.jpg",
+    "static/media/fith.jpg": "/hunter/static/media/fith.17f161bad596fe3fcdb3.jpg",
+    "static/media/second.png": "/hunter/static/media/second.6c21a090718ed690fb36.png",
+    "static/media/haru2.jpeg": "/hunter/static/media/haru2.ffdf6d4fe0c6333bc99c.jpeg",
+    "static/media/us1.jpeg": "/hunter/static/media/us1.fac2c6069b94dc6c359f.jpeg",
+    "static/media/shig2.jpg": "/hunter/static/media/shig2.a23790b97198cf9df631.jpg",
+    "static/media/deku.jpeg": "/hunter/static/media/deku.9fd3a26b24c0d81d16df.jpeg",
+    "static/media/nezuko.jpeg": "/hunter/static/media/nezuko.73792e5693a30044fa89.jpeg",
+    "static/media/haru1.jpeg": "/hunter/static/media/haru1.982d31dac1e2dc7e2716.jpeg",
+    "static/media/hang_happy.png": "/hunter/static/media/hang_happy.43a5732d2ca140e70ae4.png",
+    "static/media/hang_cry.png": "/hunter/static/media/hang_cry.8642d3b67a3b32cac49c.png",
+    "static/media/sixth.jpg": "/hunter/static/media/sixth.65b3f0dd09ce1e9d8a72.jpg",
+    "static/media/nueve.png": "/hunter/static/media/nueve.950afe3e8847a646ed30.png",
+    "static/media/harry.png": "/hunter/static/media/harry.48c53164a1460f1c0213.png",
+    "static/media/hang_worry.png": "/hunter/static/media/hang_worry.a11ce8ad2f4df2792682.png",
+    "index.html": "/hunter/index.html",
+    "main.8e2c4620.css.map": "/hunter/static/css/main.8e2c4620.css.map",
+    "main.a99dd0ed.js.map": "/hunter/static/js/main.a99dd0ed.js.map",
+    "787.51918977.chunk.js.map": "/hunter/static/js/787.51918977.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e2c4620.css",
+    "static/js/main.a99dd0ed.js"
+  ]
+}
