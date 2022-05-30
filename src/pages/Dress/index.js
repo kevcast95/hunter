@@ -34,7 +34,7 @@ function Dress() {
       setQuestionPos(idx + 1)
       setAnswers([...answers, anState])
       setFlag(false)
-    }, 1500)
+    }, 800)
   }
 
   const Questions = () => {

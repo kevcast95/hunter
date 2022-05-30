@@ -4,6 +4,7 @@
   font-size: 25px;
   font-weight: bold;
   border: 2px solid #815e57;
+  background-color: #815e575b;
   padding: 0 10px;
   &-rows {
     width: 100%;
@@ -15,9 +16,15 @@
       width: 25px;
       padding: 5px;
     }
-    & > p {
-      color: transparent;
-    }
+  }
+  &-results {
+    width: 25px;
+    padding: 5px;
+    color: #fff;
+  }
+  &-hide {
+    color: transparent;
+    margin-right: 29px;
   }
   &-img {
     width: 70px;

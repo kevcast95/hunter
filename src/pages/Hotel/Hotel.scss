@@ -16,16 +16,18 @@
     & .jigsaw-puzzle {
       width: 100%;
       height: 383px !important;
+      border: solid 2px #fff;
+      margin-top: 30px;
     }
   }
   &-smoke {
     position: absolute;
-    left: 20px;
     transform: rotate(316deg);
+    animation: App-logo-spin infinite 40s linear;
   }
   &-smoke1 {
     position: absolute;
-    animation: App-logo-spin infinite 60s linear;
+    
   }
 }
 

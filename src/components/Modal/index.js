@@ -7,10 +7,13 @@ function Modal({ num, route, text, location }) {
     <div className="next">
       <div className="next-content">
         <h1>
-          {!text ?
+          {!text && num !== 5 ?
             `Has resuelto el reto #${num}`
             :
             text
+          }
+          {num === 5 &&
+            'Travesura realizada'
           }
         </h1>
         {!text &&
@@ -19,7 +22,9 @@ function Modal({ num, route, text, location }) {
               Destino
             </a>
             <Link to={route} className="welcome-start">
-              Continuar
+              {num !== 5 ?
+                'Continuar' : 'Finalizar'
+              }
             </Link>
           </>
         }

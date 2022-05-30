@@ -23,8 +23,8 @@ function House() {
         <img className="house-smoke" src={smk3} alt="smoke" />
         <div className="house-content">
           <div className="house-guide">
-            PROBEMOS TU CAPACIDAD DE DEDUCCION
-            <p>Descubre el valor de cada imagen</p>
+            PROBEMOS TU CAPACIDAD DE DEDUCCIÓN
+            <p>Descubre los valores restantes</p>
             <p>Tendras 2 oportunidades para acertar</p>
           </div>
           <Series 

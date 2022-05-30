@@ -40,7 +40,7 @@ function Series({ setIsOpen, setFailed }) {
         <img className="series-img" src={harry} alt="series-harry" />
         <img className="series-img" src={nueve} alt="series-nueve" />
         =
-        10
+        <p className="series-results">10</p>
       </div>
       <div className="series-rows">
         <img className="series-img" src={nueve} alt="series-nueve" />
@@ -52,6 +52,7 @@ function Series({ setIsOpen, setFailed }) {
           name="ms1" 
           placeholder="?"
           value={answer.ms1}
+          autocomplete="false"
           onChange={(e)=> setAnswer({...answer, [e.target.name]: e.target.value})} 
         />
       </div>
@@ -60,7 +61,7 @@ function Series({ setIsOpen, setFailed }) {
         <img className="series-img" src={hogwart} alt="series-hogwart" />
         <img className="series-img" src={harry} alt="series-harry" />
         =
-        9
+        <p className="series-results">9</p>
       </div>
       <div className="series-rows">
         <span className="series-num">=8</span>
@@ -71,10 +72,11 @@ function Series({ setIsOpen, setFailed }) {
             name="ms2" 
             placeholder="?"
             value={answer.ms2}
+            autocomplete="false"
             onChange={(e)=> setAnswer({...answer,  [e.target.name]: e.target.value})} 
           />
         </span>
-        <p>0</p>
+        <p className="series-hide">0</p>
       </div>
     </div>
   )

@@ -4,28 +4,32 @@ import 'react-jigsaw-puzzle/lib/jigsaw-puzzle.css'
 import Layout from "../../components/Layout";
 
 import img from '../../assets/sixth.jpg'
-import smk3 from '../../assets/smk3.png'
 import smk1 from '../../assets/smk1.png'
 
 import './Hotel.scss'
 
 function Hotel() {
- 
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <Layout picture={img}
       stop={5}
-      route={'/forth'}
-      location={'https://www.google.com.co/maps/place/Cra.+19+%2382a-46,+Soledad,+Barranquilla,+Atl%C3%A1ntico/@10.9203777,-74.8198168,17z/data=!3m1!4b1!4m5!3m4!1s0x8ef5d2fa46a2e2b1:0xf4bdbc9efd8df722!8m2!3d10.9203777!4d-74.8176281?hl=es&authuser=0'}
-      isOpen={false}
+      route={'/'}
+      location={'https://www.google.com.co/maps/place/Eco+Xata/@10.8741884,-75.1007439,15z/data=!4m18!1m9!3m8!1s0x8ef67b3967182953:0x64214ac9414ffbad!2sEco+Xata!5m2!4m1!1i2!8m2!3d10.8741942!4d-75.0919909!3m7!1s0x8ef67b3967182953:0x64214ac9414ffbad!5m2!4m1!1i2!8m2!3d10.8741942!4d-75.0919909?hl=es&authuser=0'}
+      isOpen={isOpen}
     >
       <div className="hotel">
+      <img className="hotel-smoke" src={smk1} alt="smoke" />
         <div className="hotel-content">
-        <JigsawPuzzle
+          <div className="house-guide">
+            ¿QUÉ TAL UN ROMPECABEZAS?
+            <p>¿Cuanto tardarás en descubir la imagen?</p>
+          </div>
+          <JigsawPuzzle
             imageSrc='https://images2.alphacoders.com/639/thumb-1920-639805.jpg'
             rows={3}
             columns={4}
-            onSolved={() => alert('Solved!')}
+            onSolved={() => setIsOpen(true)}
           />
         </div>
       </div>
