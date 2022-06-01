@@ -22,8 +22,8 @@ function Cake() {
     >
       <div className="cake">
         <div className="cake-content">
-        <img className="welcome-smoke" src={smk3} alt="smoke" />
-          <img className="welcome-smoke1" src={smk1} alt="smoke" />
+        <img className="cake-smoke" src={smk3} alt="smoke" />
+          <img className="cake-smoke1" src={smk1} alt="smoke" />
           <div className="cake-guide">
             COMPLEA LA PALABRA
             <p>
