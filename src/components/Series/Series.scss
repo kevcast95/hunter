@@ -12,10 +12,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    & > input {
-      width: 25px;
-      padding: 5px;
-    }
   }
   &-results {
     width: 25px;
@@ -36,9 +32,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    & > input {
-      width: 25px;
-      padding: 5px;
-    }
+  }
+  &-answer {
+    width: 39px;
+    padding: 5px;
+    border: solid 1px#fff;
+    font-size: 20px;
   }
 }
