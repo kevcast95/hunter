@@ -3,18 +3,21 @@ import Modal from "../Modal";
 
 import './Layout.scss'
 
-function Layout({ 
-  children, 
+function Layout({
+  children,
   picture,
   stop,
   route,
   location,
-  text, 
+  text,
   isOpen }) {
+  
   return (
     <main className="layout">
-      <section className="layout-image" style={{ backgroundImage: `url(${picture})` }}>
-
+      <section
+        className="layout-image"
+        style={{ backgroundImage: `url(${picture})` }}
+      >
       </section>
       <section className="layout-content_game">
         <div className="layout-stops">
@@ -23,9 +26,9 @@ function Layout({
         </div>
         {children}
       </section>
-      {isOpen && 
-        <Modal 
-          num={stop} 
+      {isOpen &&
+        <Modal
+          num={stop}
           route={route}
           text={text}
           location={location}
