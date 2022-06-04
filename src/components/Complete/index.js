@@ -28,7 +28,7 @@ function Complete( { setIsOpen, setFailed }) {
     }
     if (!containsAll && progressBar === 0) {
       setIsOpen(true)
-      setFailed()
+      setFailed(true)
       setTimeout(() => {
         setIsOpen(false)
         setHangImg(hang2)

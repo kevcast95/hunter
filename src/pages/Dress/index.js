@@ -128,7 +128,7 @@ function Dress() {
     <Layout picture={img}
       stop={2}
       route={'/third'}
-      location={'https://www.google.com.co/maps/place/Cra+78+%2382-32,+Barranquilla,+Atl%C3%A1ntico/@11.0213567,-74.8054738,20z/data=!4m5!3m4!1s0x8ef42dbfeca944a3:0x9b7c6c4856f6d540!8m2!3d11.0213567!4d-74.8052002?hl=es&authuser=0'}
+      location={'https://www.google.com.co/maps/place/Cra+78+%2382-45,+Barranquilla,+Atl%C3%A1ntico/@11.0212269,-74.8060232,19z/data=!3m1!4b1!4m5!3m4!1s0x8ef42dbfeca944a3:0xb01489dd40edf9af!8m2!3d11.0212256!4d-74.805476?hl=es&authuser=0'}
       isOpen={isOpen}
       text={correct < 3 ? 'Lo siento has perdido, intenta de nuevo': null}
     >
