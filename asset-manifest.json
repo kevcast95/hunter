@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hunter/static/css/main.e5c1405f.css",
-    "main.js": "/hunter/static/js/main.8aed3e1b.js",
+    "main.js": "/hunter/static/js/main.390193a9.js",
     "static/js/787.51918977.chunk.js": "/hunter/static/js/787.51918977.chunk.js",
     "static/media/smk3.png": "/hunter/static/media/smk3.337b9ab355ff51f7bad6.png",
     "static/media/smk1.png": "/hunter/static/media/smk1.76429cbfe12b17a1ea67.png",
@@ -21,17 +21,18 @@
     "static/media/haru1.jpeg": "/hunter/static/media/haru1.982d31dac1e2dc7e2716.jpeg",
     "static/media/hang_happy.png": "/hunter/static/media/hang_happy.43a5732d2ca140e70ae4.png",
     "static/media/hang_cry.png": "/hunter/static/media/hang_cry.8642d3b67a3b32cac49c.png",
+    "service-worker.js": "/hunter/service-worker.js",
     "static/media/sixth.jpg": "/hunter/static/media/sixth.65b3f0dd09ce1e9d8a72.jpg",
     "static/media/nueve.png": "/hunter/static/media/nueve.950afe3e8847a646ed30.png",
     "static/media/harry.png": "/hunter/static/media/harry.48c53164a1460f1c0213.png",
     "static/media/hang_worry.png": "/hunter/static/media/hang_worry.a11ce8ad2f4df2792682.png",
     "index.html": "/hunter/index.html",
     "main.e5c1405f.css.map": "/hunter/static/css/main.e5c1405f.css.map",
-    "main.8aed3e1b.js.map": "/hunter/static/js/main.8aed3e1b.js.map",
+    "main.390193a9.js.map": "/hunter/static/js/main.390193a9.js.map",
     "787.51918977.chunk.js.map": "/hunter/static/js/787.51918977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5c1405f.css",
-    "static/js/main.8aed3e1b.js"
+    "static/js/main.390193a9.js"
   ]
 }
