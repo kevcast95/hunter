@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hunter/static/css/main.670e6e90.css",
-    "main.js": "/hunter/static/js/main.a5b5c2cc.js",
+    "main.css": "/hunter/static/css/main.579ef1f2.css",
+    "main.js": "/hunter/static/js/main.8aed3e1b.js",
     "static/js/787.51918977.chunk.js": "/hunter/static/js/787.51918977.chunk.js",
     "static/media/smk3.png": "/hunter/static/media/smk3.337b9ab355ff51f7bad6.png",
     "static/media/smk1.png": "/hunter/static/media/smk1.76429cbfe12b17a1ea67.png",
@@ -26,12 +26,12 @@
     "static/media/harry.png": "/hunter/static/media/harry.48c53164a1460f1c0213.png",
     "static/media/hang_worry.png": "/hunter/static/media/hang_worry.a11ce8ad2f4df2792682.png",
     "index.html": "/hunter/index.html",
-    "main.670e6e90.css.map": "/hunter/static/css/main.670e6e90.css.map",
-    "main.a5b5c2cc.js.map": "/hunter/static/js/main.a5b5c2cc.js.map",
+    "main.579ef1f2.css.map": "/hunter/static/css/main.579ef1f2.css.map",
+    "main.8aed3e1b.js.map": "/hunter/static/js/main.8aed3e1b.js.map",
     "787.51918977.chunk.js.map": "/hunter/static/js/787.51918977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.670e6e90.css",
-    "static/js/main.a5b5c2cc.js"
+    "static/css/main.579ef1f2.css",
+    "static/js/main.8aed3e1b.js"
   ]
 }
