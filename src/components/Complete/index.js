@@ -7,8 +7,8 @@ import hang4 from "../../assets/hang_cry.png"
 
 import "./Complete.scss"
 
-function Complete( { setIsOpen, setFailed }) {
-  const [usedLetter, setUsedLetter] = useState([]) 
+function Complete({ setIsOpen, setFailed }) {
+  const [usedLetter, setUsedLetter] = useState([])
   const [letterCheck, setLetterCheck] = useState([])
   const [progress, setProgress] = useState(0)
   const [hangImg, setHangImg] = useState(hang2)
@@ -17,7 +17,7 @@ function Complete( { setIsOpen, setFailed }) {
   const containsAll = wordReduced.every(element => {
     return letterCheck.includes(element);
   });
-  
+
   useEffect(() => {
     const progressBar = 100 - (usedLetter.length / (lengthWord + 2)) * 100
     if (progressBar < 65) {
@@ -35,10 +35,10 @@ function Complete( { setIsOpen, setFailed }) {
         setProgress(0)
         setLetterCheck([])
         setUsedLetter([])
-      },3200)
+      }, 3200)
     }
     setProgress(progressBar)
-  },[usedLetter])
+  }, [usedLetter])
 
   useEffect(() => {
     if (containsAll) {
@@ -46,50 +46,57 @@ function Complete( { setIsOpen, setFailed }) {
       setTimeout(() => {
         setIsOpen(true)
         setFailed(false)
-      },700)
+      }, 700)
     }
-  },[letterCheck])
+  }, [letterCheck])
 
   function findingWord(ltr) {
-    if(!usedLetter.includes(ltr)) {setUsedLetter([...usedLetter,ltr])}
-    if(word1.includes(ltr)) {
-      setLetterCheck([...letterCheck,ltr])
+    if (!usedLetter.includes(ltr)) { setUsedLetter([...usedLetter, ltr]) }
+    if (word1.includes(ltr)) {
+      setLetterCheck([...letterCheck, ltr])
     }
   }
 
-  return(
+  return (
     <div className="complete">
-       <div className="progress">
-          <div>
-            <p>Intentos restantes</p>
-            <div className="progress-bar_external">
-              <div style={{width: `${progress}%`}} className="progress-bar"></div>
+      <div className="progress">
+        <div>
+          <p>Intentos restantes</p>
+          <div className="progress-bar_external">
+            <div
+              style={{ width: `${progress}%` }}
+              className="progress-bar"
+              data-testid="bar"
+            >
             </div>
           </div>
-          <img src={hangImg} alt="hang-man"/>
         </div>
+        <img src={hangImg} alt="hang-man" />
+      </div>
       <div className="complete-letters-container">
         {
-          word1.map((ltr,index)=> (
-            <span 
+          word1.map((ltr, index) => (
+            <span
               className="complete-letters"
               key={index}
+              data-testid="spaces"
             >
-              {(ltr === "-" || usedLetter.includes(ltr)) ? ltr:""}
+              {(ltr === "-" || usedLetter.includes(ltr)) ? ltr : ""}
             </span>
           ))
         }
       </div>
       <div className="complete-abc_container">
         {
-          abc.map((ltr,index)=> (
-            <span 
+          abc.map((ltr, index) => (
+            <span
               style={
                 (usedLetter.includes(ltr) && !word1.includes(ltr)) ?
-                {textDecoration:"line-through"}:{}
+                  { textDecoration: "line-through" } : {}
               }
+              data-testid="abcLetters"
               className="complete-abc"
-              onClick={()=>findingWord(ltr)}
+              onClick={() => findingWord(ltr)}
               key={index}
             >
               {ltr.toUpperCase()}

@@ -11,7 +11,7 @@ function Layout({
   location,
   text,
   isOpen }) {
-  
+
   return (
     <main className="layout">
       <section
@@ -22,7 +22,7 @@ function Layout({
       <section className="layout-content_game">
         <div className="layout-stops">
           <h3 className="stops-text">Paradas</h3>
-          <h3 className="stops-num">{stop}/5</h3>
+          <h3 className="stops-num" data-testid={'stops'}>{stop}/5</h3>
         </div>
         {children}
       </section>

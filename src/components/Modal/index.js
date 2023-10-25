@@ -21,21 +21,23 @@ function Modal({ num, route, text, location }) {
         </h1>
         {!text &&
           <>
-            <a 
-              href={location} 
-              target="_blank" 
-              className="welcome-start" 
+            <a
+              href={location}
+              target="_blank"
+              className="welcome-start"
               rel="noreferrer"
-              onClick={()=> setShowContinue(true)}  
+              data-testid="linker"
+              onClick={() => setShowContinue(true)}
             >
               Destino
             </a>
-            <button 
-              type="button" 
+            <button
+              type="button"
+              data-testid="btn"
               className="welcome-start"
-              onClick={showContinue ? 
-                ()=> navigate(route) 
-                : 
+              onClick={showContinue ?
+                () => navigate(route)
+                :
                 () => alert('Primero debes ir al siguiente destino, luego regresas')
               }
             >
